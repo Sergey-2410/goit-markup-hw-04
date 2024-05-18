@@ -66,6 +66,9 @@ img {
   padding-bottom: 24px;
   display: block;
   position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link:hover::after {
   content: "";
@@ -164,6 +167,9 @@ img {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
