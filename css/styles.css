@@ -386,7 +386,12 @@ img {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-
+.container-media {
+  display: flex;
+}
+.media {
+  margin-left: 120px;
+}
 .title-footer {
   font-weight: 500;
   font-size: 16px;
