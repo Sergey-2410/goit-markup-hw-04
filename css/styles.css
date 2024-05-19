@@ -406,26 +406,26 @@ img {
 }
 .container-media {
   display: flex;
+  align-items: baseline;
 }
-.media {
-  margin-left: 120px;
+.footer-logo {
+  margin-right: 120px;
 }
-.title-footer {
+
+.title-media {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-  align-items: center;
-  justify-items: center;
 }
 .media-list {
-  display: inline-flex;
+  display: flex;
   gap: 16px;
 }
 .footer-link {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
@@ -433,6 +433,12 @@ img {
   border-radius: 50%;
   background-color: #4d5ae5;
   gap: 16px;
+}
+.footer-link:hover {
+  background-color: #31d0aa;
+}
+.footer-link:focus {
+  background-color: #31d0aa;
 }
 .footer-icon {
   fill: #fff;
