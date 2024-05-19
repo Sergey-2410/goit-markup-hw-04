@@ -314,6 +314,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 .media-item-team {
   width: 40px;
@@ -379,7 +380,7 @@ img {
   color: #f4f4fd;
 }
 
-.image-portfolio:hover .text-overlay {
+.portfolio-item:hover .text-overlay {
   transform: translateY(0);
 }
 .portfolio-item:hover {
