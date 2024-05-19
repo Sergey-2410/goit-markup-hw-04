@@ -65,12 +65,30 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
-  position: relative;
-  transition-property: background-color;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-link:hover::after {
+
+.menu-link-studio {
+  color: #404bbf;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-link-studio:hover::after {
   content: "";
   position: absolute;
   left: 0;
@@ -80,7 +98,6 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
-  color: #404bbf;
 }
 .menu-link:hover {
   color: #404bbf;
@@ -156,6 +173,7 @@ img {
   background-position: center;
   background-size: cover;
   padding: 188px 0;
+  margin: auto;
 }
 
 .button {
