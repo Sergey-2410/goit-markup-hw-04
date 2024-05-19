@@ -65,6 +65,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+  position: relative;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -88,7 +89,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link-studio:hover::after {
+.menu-link-studio,
+.menu-link:hover::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -453,6 +455,9 @@ img {
   border-radius: 50%;
   background-color: #4d5ae5;
   gap: 16px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover {
   background-color: #31d0aa;
@@ -461,5 +466,5 @@ img {
   background-color: #31d0aa;
 }
 .footer-icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
