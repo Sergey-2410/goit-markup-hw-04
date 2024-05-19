@@ -287,6 +287,8 @@ img {
   background: #ffffff;
 }
 .cont-img-teamcard {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .madia-link {
   width: 100%;
@@ -311,8 +313,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 8px;
-  padding-bottom: 32px;
 }
 .media-item-team {
   width: 40px;
