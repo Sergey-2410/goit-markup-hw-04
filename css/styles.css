@@ -465,6 +465,6 @@ img {
 .footer-link:focus {
   background-color: #31d0aa;
 }
-.footer-icon {
+.footer-icon:hover {
   fill: #f4f4fd;
 }
